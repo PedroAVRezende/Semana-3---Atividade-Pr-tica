@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas Ghibli</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <div class="navbar">
+        <h1>Receitas</h1>
+        <nav>
+            <ul>
+                <li><a href="#entradas">Entradas</a></li>
+                <li><a href="#pratos-principais">Pratos Principais</a></li>
+                <li><a href="#sobremesas">Sobremesas</a></li>
+                <li><a href="#favoritos">Favoritos</a></li>
+                <li>
+                    <form class="search-form">
+                        <input type="text" id="search-input" placeholder="Buscar receitas">
+                        <button type="button" id="search-button">Buscar</button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="entradas" class="categoria">
+    <h2>Entradas</h2>
+    <div class="receitas">
+        <div class="card" id="salada-de-tomate">
+            <img src="img/Salada de Tomate.jpg" alt="Salada de Tomate">
+            <p>Salada de Tomate</p>
+        </div>
+        <div class="card" id="bruschetta">
+            <img src="https://via.placeholder.com/150" alt="Bruschetta">
+            <p>Bruschetta</p>
+        </div>
+        <div class="card" id="sopa-de-abobora">
+            <img src="img/Sopa de Abóbora.jpg" alt="Sopa de Abóbora">
+            <p>Sopa de Abóbora</p>
+        </div>
+        <div class="card" id="ceviche">
+            <img src="img/Ceviche.jpg" alt="Ceviche">
+            <p>Ceviche</p>
+        </div>
+        <div class="card" id="canapes">
+            <img src="https://via.placeholder.com/150" alt="Canapés">
+            <p>Canapés</p>
+        </div>
+    </div>
+</section>
+
+<section id="pratos-principais" class="categoria">
+    <h2>Pratos Principais</h2>
+    <div class="receitas">
+        <div class="card" id="lasanha">
+            <img src="https://via.placeholder.com/150" alt="Lasanha">
+            <p>Lasanha</p>
+        </div>
+        <div class="card" id="risoto-de-cogumelos">
+            <img src="https://via.placeholder.com/150" alt="Risoto de Cogumelos">
+            <p>Risoto de Cogumelos</p>
+        </div>
+        <div class="card" id="frango-ao-curry">
+            <img src="https://via.placeholder.com/150" alt="Frango ao Curry">
+            <p>Frango ao Curry</p>
+        </div>
+        <div class="card" id="peixe-grelhado">
+            <img src="img/Peixe Grelhado.jpg" alt="Peixe Grelhado">
+            <p>Peixe Grelhado</p>
+        </div>
+        <div class="card" id="hamburguer-artesanal">
+            <img src="https://via.placeholder.com/150" alt="Hambúrguer Artesanal">
+            <p>Hambúrguer Artesanal</p>
+        </div>
+    </div>
+</section>
+
+<section id="sobremesas" class="categoria">
+    <h2>Sobremesas</h2>
+    <div class="receitas">
+        <div class="card" id="torta-de-maca">
+            <img src="https://via.placeholder.com/150" alt="Torta de Maçã">
+            <p>Torta de Maçã</p>
+        </div>
+        <div class="card" id="mousse-de-chocolate">
+            <img src="https://via.placeholder.com/150" alt="Mousse de Chocolate">
+            <p>Mousse de Chocolate</p>
+        </div>
+        <div class="card" id="cheesecake">
+            <img src="https://via.placeholder.com/150" alt="Cheesecake">
+            <p>Cheesecake</p>
+        </div>
+        <div class="card" id="sorvete-artesanal">
+            <img src="https://via.placeholder.com/150" alt="Sorvete Artesanal">
+            <p>Sorvete Artesanal</p>
+        </div>
+        <div class="card" id="pudim-de-leite">
+            <img src="https://via.placeholder.com/150" alt="Pudim de Leite">
+            <p>Pudim de Leite</p>
+        </div>
+    </div>
+</section>
+
+<section id="favoritos" class="categoria">
+    <h2>Favoritos</h2>
+    <div class="receitas">
+        <div class="card" id="salada-caesar">
+            <img src="https://via.placeholder.com/150" alt="Salada Caesar">
+            <p>Salada Caesar</p>
+        </div>
+        <div class="card" id="pizza-margherita">
+            <img src="https://via.placeholder.com/150" alt="Pizza Margherita">
+            <p>Pizza Margherita</p>
+        </div>
+        <div class="card" id="brownie-de-chocolate">
+            <img src="img/Brownie de Chocolate.jpg" alt="Brownie de Chocolate">
+            <p>Brownie de Chocolate</p>
+        </div>
+        <div class="card" id="tacos-mexicanos">
+            <img src="https://via.placeholder.com/150" alt="Tacos Mexicanos">
+            <p>Tacos Mexicanos</p>
+        </div>
+        <div class="card" id="sushi">
+            <img src="https://via.placeholder.com/150" alt="Sushi">
+            <p>Sushi</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>Receitas Ghibli &copy; 2025</p>
+</footer>
+
+<!-- Formulário de Login -->
+<div class="login-form">
+    <h2>Login</h2>
+    <form>
+        <label for="username">Usuário:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Entrar</button>
+    </form>
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #f5f3e6;
+  color: #5a4633;
+  line-height: 1.6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #8c644d;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.navbar button {
+  background-color: #5a4633;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease
