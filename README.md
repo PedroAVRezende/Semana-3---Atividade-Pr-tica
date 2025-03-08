@@ -12,15 +12,14 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 - Nome: Pedro Augusto Vieira Rezende
 - Matricula: 715475
-- Proposta de projeto escolhida: Portal de Notícias Local
-- Breve descrição sobre seu projeto: Projeto de portal de notícias automotivas para exibir lançamentos, notícias e informações sobre o mundo automotivo.
+- Proposta de projeto escolhida: Diretório de Receitas
+- Breve descrição sobre seu projeto: Portal de Receitas para exibir as receitas e a origem da receita(Região, história)
 
 
 ## Print do esboço criada
 
-<<  COLOQUE A IMAGEM AQUI >>
-
+<<  [Projeto Replit](LayoutSiteReceias.jpg) >>
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+<<  [Projeto Replit](Print.jpg) >>
